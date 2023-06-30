@@ -1,0 +1,369 @@
+body{
+  padding-bottom: 40%;
+}
+.vithal-main{
+  margin-left:45%;
+  margin-top:14%;
+  padding-top: 17%;
+}
+.vithal-sun{
+  background:orange;
+  height:250px;
+  width:250px;
+  border-radius:50%;
+  position:relative;
+/*   box-shadow:2px 2px 4px #ddd; */
+  box-shadow: 0 0 15px -1px;
+}
+.vithal-face{
+  position: absolute;
+    background: #000;
+    width: 128px;
+    height: 200px;
+    border-radius: 79px;
+    left: 27%;
+    top: 12%;
+}
+.vithal-ears-left{
+ background: #000;
+    width: 39px;
+    height: 57px;
+    border-radius: 50%;
+    left: 20%;
+    top: 45%;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-18deg);
+}
+.vithal-ears-right{
+  background: #000;
+    width: 39px;
+    height: 57px;
+    border-radius: 50%;
+    right: 16%;
+    top: 45%;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(18deg);
+}
+.vithal-face-chandra{
+    background: #ff9933;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 46%;
+    top: 28%;
+    position: absolute;
+    z-index: 1;
+  
+}
+.vithal-face-chandra2{
+  background: #ff9934;
+    width: 8px;
+    height: 33px;
+    border-radius: 50%;
+    left: 126px;
+    top: 33%;
+    position: absolute;
+    z-index: 1;
+}
+.vithal-face-chandra3{
+    background: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 50%;
+    top: 32%;
+    position: absolute;
+    z-index: 2;
+}
+.vithal-pagadi1{
+  position: absolute;
+    background: #000;
+    width: 146px;
+    height: 98px;
+    border-radius: 48%;
+    left: 23%;
+    bottom: 68%;
+}
+.vithal-pagadi2{
+   position: absolute;
+    background: #000;
+    width: 121px;
+    height: 84px;
+    left: 28%;
+    bottom: 85%;
+    border-top-left-radius: 61%;
+    border-top-right-radius: 61%;
+}
+.vithal-pagadi3{
+   position: absolute;
+    background: #000;
+    width: 88px;
+    height: 84px;
+    border-radius: 25%;
+    transform: rotate(45deg);
+    left: 34%;
+    bottom: 108%;
+}
+.vithal-pagadi4{
+  position: absolute;
+    background: #000;
+    width: 22px;
+    height: 41px;
+    border-radius: 47%;
+    left: 47%;
+    bottom: 136%;
+}
+.vithal-flowers{
+/*   border: 5px dotted #000;
+    width: 42px;
+    transform: rotate(102deg);
+    position: absolute;
+    left: 15%;
+    top: 31%; */
+  
+  border:5px dotted #000;
+  width:42px;
+  transform:rotate(102deg);
+  position:absolute;
+  left:15%;
+  top:25%;
+}
+.vithal-body{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background:#000;
+  border-radius:23%;
+  transform:rotate(46deg);
+  top:80%;
+}
+.vitha-design-left{
+  position: absolute;
+    background: #000;
+    width: 32px;
+    height: 110px;
+    top: 68%;
+    transform: rotate(54deg);
+    left: 8%;
+}
+.vitha-design-right{
+  position: absolute;
+    background: #000;
+    width: 32px;
+    height: 110px;
+    top: 68%;
+    transform: rotate(-47deg);
+    right: 8%;
+}
+.vitha-design-left-dot1{
+  position: absolute;
+    background: #fff;
+    width: 33px;
+    height: 47px;
+    top: 82%;
+    transform: rotate(54deg);
+    left: 0%;
+    border-radius: 47%;
+}
+.vitha-design-right-dot1{
+  position: absolute;
+    background: #fff;
+    width: 33px;
+    height: 47px;
+    top: 82%;
+    transform: rotate(-45deg);
+    right: 0%;
+    border-radius: 47%;
+}
+.vitha-design-left-dot2{
+  position: absolute;
+    background: #000;
+    width: 13px;
+    height: 25px;
+    top: 93%;
+    transform: rotate(45deg);
+    left: -11%;
+    border-bottom-left-radius: 41px
+}
+.vitha-design-right-dot2{
+ position: absolute;
+    background: #000;
+    width: 13px;
+    height: 25px;
+    top: 90%;
+    transform: rotate(134deg);
+    right: -5%;
+    border-bottom-left-radius: 41px;
+}
+.vitha-design-left-dot3{
+   position: absolute;
+    background: #000;
+    width: 13px;
+    height: 27px;
+    top: 88%;
+    transform: rotate(69deg);
+    left: -4%;
+    border-top-left-radius: 50px;
+}
+.vitha-design-right-dot3{
+   position: absolute;
+    background: #000;
+    width: 14px;
+    height: 27px;
+    top: 95%;
+    transform: rotate(143deg);
+    right: -10%;
+    border-top-left-radius: 50px;
+}
+.vitha-design-left-dot4{
+  position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    left: -10%;
+    border-radius: 50%;
+    bottom: 3%;
+}
+.vitha-design-right-dot4{
+ position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    right: -10%;
+    border-radius: 50%;
+    bottom: 1%;
+}
+
+
+
+
+.vithal-cloths{
+  position: absolute;
+    background: #000;
+    width: 282px;
+    height: 323px;
+    border-top-left-radius: 54%;
+    border-top-right-radius: 54%;
+    border-bottom-right-radius: 23%;
+    border-bottom-left-radius: 23%;
+    top: 136%;
+    left: -8%;
+}
+.vithal-body-left-hand{
+ background: #fff;
+    width: 55px;
+    height: 61px;
+    left: 3%;
+    position: absolute;
+    z-index: 2;
+    top: 18rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 91px;
+    border-bottom-left-radius: 91px;
+}
+.vithal-body-right-hand{
+  background: #fff;
+    width: 55px;
+    height: 61px;
+    right: 3%;
+    position: absolute;
+    z-index: 2;
+    top: 18rem;
+    border-top-right-radius: 91px;
+    border-bottom-right-radius: 91px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.left-shall{
+   position: absolute;
+    height: 212px;
+    width: 116px;
+    background: #000;
+    z-index: 2;
+    top: 130%;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    left: -15%;
+    transform: rotate(8deg);
+  border-bottom: 8px solid orange;
+}
+.right-shall{
+  position: absolute;
+    height: 212px;
+    width: 116px;
+    background: #000;
+    z-index: 2;
+    top: 130%;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    right: -15%;
+    transform: rotate(-11deg);
+    border-bottom: 8px solid orange;
+}
+.Leg-shall{
+      position: absolute;
+    width: 139px;
+    height: 200px;
+    background: #000;
+    z-index: 2;
+    top: 226%;
+    left: 19%;
+}
+.Leg-shall:after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 32px;
+    height: 108px;
+    top: 49%;
+    transform: rotate(-9deg);
+    left: -7%;
+}
+.Leg-shall:before{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 32px;
+    height: 108px;
+    top: 49%;
+    transform: rotate(9deg);
+    right: -7%;
+}
+.Leg-stand{
+  position: absolute;
+    width: 210px;
+    height: 76px;
+    background: #000;
+    top: 291%;
+    z-index: 2;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    left: 4%;
+    border-bottom: 22px solid orange;
+}
+.flowers{
+    position: absolute;
+    width: 89px;
+    height: 125px;
+    border: 6px dotted orange;
+    border-top: none;
+    top: 76%;
+    z-index: 2;
+    left: 31%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.flowers:after{
+   content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: orange;
+    top: 99%;
+    left: 39%;
+}
